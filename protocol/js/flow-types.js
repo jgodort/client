@@ -4882,6 +4882,7 @@ export type TeamMember = {
   uid: UID,
   role: TeamRole,
   eldestSeqno: Seqno,
+  userEldestSeqno: Seqno,
 }
 
 export type TeamMemberDetails = {
